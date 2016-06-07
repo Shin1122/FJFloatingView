@@ -4,10 +4,7 @@
 这是做语音功能是，退出语音界面写的一个语音悬浮界面，后来封装一下，限制在界面范围内随手势移动，可停留在界面任何位置。
 
 
-![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_1.jpg)  
-![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_2.jpg) 
 ![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_3.jpg) 
-![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_4.jpg) 
-![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_5.jpg) 
+
 
 
