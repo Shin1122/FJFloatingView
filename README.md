@@ -5,4 +5,9 @@
 
 
 ![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_1.jpg)  
+![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_2.jpg) 
+![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_3.jpg) 
+![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_4.jpg) 
+![](https://github.com/fangjinfeng/FJFloatingView/blob/master/ScreenShot/floating_view_5.jpg) 
+
 
