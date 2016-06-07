@@ -3,7 +3,5 @@
 
 这是做语音功能是，退出语音界面写的一个语音悬浮界面，后来封装一下，限制在界面范围内随手势移动，可停留在界面任何位置。
 
-![][floating_view_1]
-![][floating_view_1]
-![][floating_view_1]
-![][floating_view_1]
+![](http://www.baidu.com/img/bdlogo.gif) 
+
