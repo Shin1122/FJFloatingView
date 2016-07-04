@@ -15,6 +15,12 @@
 		3028D5611D06550E00A29206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3028D55F1D06550E00A29206 /* LaunchScreen.storyboard */; };
 		3028D56C1D06550E00A29206 /* FJFloatingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3028D56B1D06550E00A29206 /* FJFloatingViewTests.m */; };
 		3028D5771D06550E00A29206 /* FJFloatingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3028D5761D06550E00A29206 /* FJFloatingViewUITests.m */; };
+		3028D5871D06552700A29206 /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 3028D5861D06552700A29206 /* UIGestureRecognizer+Block.m */; };
+		3028D58D1D06553000A29206 /* icon_zb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3028D5891D06553000A29206 /* icon_zb@2x.png */; };
+		3028D58E1D06553000A29206 /* icon_zb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3028D58A1D06553000A29206 /* icon_zb@3x.png */; };
+		3028D58F1D06553000A29206 /* zb_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3028D58B1D06553000A29206 /* zb_bg@2x.png */; };
+		3028D5901D06553000A29206 /* zb_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3028D58C1D06553000A29206 /* zb_bg@3x.png */; };
+		3028D5941D06553A00A29206 /* FJFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3028D5931D06553A00A29206 /* FJFloatingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,14 @@
 		3028D5721D06550E00A29206 /* FJFloatingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFloatingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3028D5761D06550E00A29206 /* FJFloatingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFloatingViewUITests.m; sourceTree = "<group>"; };
 		3028D5781D06550E00A29206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3028D5851D06552700A29206 /* UIGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Block.h"; sourceTree = "<group>"; };
+		3028D5861D06552700A29206 /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
+		3028D5891D06553000A29206 /* icon_zb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zb@2x.png"; sourceTree = "<group>"; };
+		3028D58A1D06553000A29206 /* icon_zb@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zb@3x.png"; sourceTree = "<group>"; };
+		3028D58B1D06553000A29206 /* zb_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zb_bg@2x.png"; sourceTree = "<group>"; };
+		3028D58C1D06553000A29206 /* zb_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zb_bg@3x.png"; sourceTree = "<group>"; };
+		3028D5921D06553A00A29206 /* FJFloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFloatingView.h; sourceTree = "<group>"; };
+		3028D5931D06553A00A29206 /* FJFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFloatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,9 @@
 		3028D5501D06550E00A29206 /* FJFloatingView */ = {
 			isa = PBXGroup;
 			children = (
+				3028D5911D06553A00A29206 /* FJFloatingView */,
+				3028D5881D06553000A29206 /* Source */,
+				3028D5841D06552700A29206 /* Category */,
 				3028D5541D06550E00A29206 /* AppDelegate.h */,
 				3028D5551D06550E00A29206 /* AppDelegate.m */,
 				3028D5571D06550E00A29206 /* ViewController.h */,
@@ -138,6 +155,35 @@
 				3028D5781D06550E00A29206 /* Info.plist */,
 			);
 			path = FJFloatingViewUITests;
+			sourceTree = "<group>";
+		};
+		3028D5841D06552700A29206 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3028D5851D06552700A29206 /* UIGestureRecognizer+Block.h */,
+				3028D5861D06552700A29206 /* UIGestureRecognizer+Block.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3028D5881D06553000A29206 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3028D5891D06553000A29206 /* icon_zb@2x.png */,
+				3028D58A1D06553000A29206 /* icon_zb@3x.png */,
+				3028D58B1D06553000A29206 /* zb_bg@2x.png */,
+				3028D58C1D06553000A29206 /* zb_bg@3x.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3028D5911D06553A00A29206 /* FJFloatingView */ = {
+			isa = PBXGroup;
+			children = (
+				3028D5921D06553A00A29206 /* FJFloatingView.h */,
+				3028D5931D06553A00A29206 /* FJFloatingView.m */,
+			);
+			path = FJFloatingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +253,7 @@
 				TargetAttributes = {
 					3028D54D1D06550E00A29206 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 96RL3VBJXT;
 					};
 					3028D5661D06550E00A29206 = {
 						CreatedOnToolsVersion = 7.3;
@@ -244,8 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3028D5611D06550E00A29206 /* LaunchScreen.storyboard in Resources */,
+				3028D58F1D06553000A29206 /* zb_bg@2x.png in Resources */,
+				3028D5901D06553000A29206 /* zb_bg@3x.png in Resources */,
 				3028D55E1D06550E00A29206 /* Assets.xcassets in Resources */,
+				3028D58E1D06553000A29206 /* icon_zb@3x.png in Resources */,
 				3028D55C1D06550E00A29206 /* Main.storyboard in Resources */,
+				3028D58D1D06553000A29206 /* icon_zb@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +321,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3028D5941D06553A00A29206 /* FJFloatingView.m in Sources */,
 				3028D5591D06550E00A29206 /* ViewController.m in Sources */,
+				3028D5871D06552700A29206 /* UIGestureRecognizer+Block.m in Sources */,
 				3028D5561D06550E00A29206 /* AppDelegate.m in Sources */,
 				3028D5531D06550E00A29206 /* main.m in Sources */,
 			);
@@ -415,7 +468,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FJFloatingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FJFloatingView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +481,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FJFloatingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FJFloatingView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

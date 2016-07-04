@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FJFloatingView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    FJFloatingView *floatingView = [[FJFloatingView alloc] initWithFrame:CGRectMake(100, 100, FJ_FLOATING_VOICE_VIEW_SIZE, FJ_FLOATING_VOICE_VIEW_SIZE)];
+    [self.view addSubview:floatingView];
 }
 
 - (void)didReceiveMemoryWarning {
